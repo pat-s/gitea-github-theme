@@ -1,0 +1,159 @@
+:root {
+  --border-radius: 6px;
+  --color-primary: #0969da;
+  --color-navbar: #f6f8fa;
+  --color-active: #f6f8fa;
+  --color-markup-code-block: #f6f8fa;
+  --color-hover: none;
+  --color-purple: #8250df;
+}
+.ui.label {
+  padding: .3em .5em;
+  background: var(--color-light);
+  color: var(--color-text-light);
+  border-radius: 6px;
+}
+.ui.blue.label,
+.ui.blue.labels .label,
+.ui.primary.label,
+.ui.primary.labels .label {
+  border-color: var(--color-light)!important;
+  background-color: #afb8c133!important;
+  border-radius: 6px;
+  color: #24292f!important;
+}
+.ui.blue.button,
+.ui.blue.buttons .button,
+.ui.primary.button,
+.ui.primary.buttons .button {
+  background-color: #f6f8fa!important;
+  color: #24292f!important;
+}
+.repo-icon {
+  display: inline-block;
+  transform: scale(0.75);
+  margin-right: -0.05rem!important;
+}
+.ui.green.buttons .button,
+.ui.green.button {
+  background-color: #2da44e;
+  color: #fff!important
+}
+.ui.green.labels .label,
+.ui.ui.ui.green.label {
+  background-color: #2da44e;
+  color: #fff!important
+}
+.ui.label {
+  padding: .5em .5em;
+}
+.ui.basic.green.buttons .button,
+.ui.basic.green.button {
+  color: #2da44e;
+}
+.feeds .list ul li.private {
+  background: none;
+}
+.repository.file.list #repo-files-table tbody .svg.octicon-file-directory,
+.repository.file.list #repo-files-table tbody .svg.octicon-file-submodule {
+  color: #54aeff;
+}
+a,
+.ui.breadcrumb a {
+  color: var(--color-text)!important;
+}
+.repo-title a {
+  color: var(--color-primary)!important
+}
+.ui.basic.blue.button,
+.ui.basic.blue.buttons .button,
+.ui.basic.primary.button,
+.ui.basic.primary.buttons .button {
+  background-color: #fff!important;
+  box-shadow: inset 0 0 0 1px rgba(34, 36, 38, .15)!important;
+  color: var(--color-text)!important;
+}
+}
+.ui.basic.blue.button:focus,
+.ui.basic.blue.buttons .button:focus,
+.ui.basic.primary.button:focus,
+.ui.basic.primary.buttons .button:focus {
+box-shadow: inset 0 0 0 0px #808080!important;
+}
+.ui.basic.blue.button:hover,
+.ui.basic.blue.buttons .button:hover,
+.ui.basic.primary.button:hover,
+.ui.basic.primary.buttons .button:hover {
+background-color: #fff!important;
+}
+ui.basic.blue.button:hover,
+.ui.basic.blue.buttons .button:hover,
+.ui.basic.primary.button:hover,
+.ui.basic.primary.buttons .button:hover {
+box-shadow: inset 0 0 0 0px #808080!important;
+}
+a:hover,
+a.muted:hover,
+.ui.breadcrumb a:hover {
+color: none;
+}
+.ui.tabular.menu .item:hover {
+color: none;
+}
+.ui.basic.labels .label,
+.ui.basic.label {
+background-color: #fff;
+}
+.ui.labeled.button.disabled > .button,
+.ui.basic.buttons .button,
+.ui.basic.button {
+background-color: #f6f8fa;
+}
+.ui.blue.button:hover,
+.ui.blue.buttons .button:hover,
+.ui.primary.button:hover,
+.ui.primary.buttons .button:hover {
+background-color: var(--color-hover)!important;
+}
+.repository .ui.segment.sub-menu .list .item a:hover {
+color: var(--color-text)!important;
+}
+.repo-buttons .ui.labeled.button > .label:hover {
+color: var(--color-text)!important;
+}
+.repository.file.list #repo-files-table tr:hover {
+background-color: #f6f8fa!important
+}
+.ui .error.header {
+background-color: #cf222e!important;
+color: #fff!important;
+}
+.ui.red.buttons .button,
+.ui.red.button {
+color: #fff!important;
+}
+.ui.basic.red.buttons .button,
+.ui.basic.red.button {
+color: #cf222e!important;
+}
+* {
+scrollbar-width: thin;
+scrollbar-color: #f6f8fa transparent !important;
+}
+::-webkit-scrollbar-thumb {
+box-shadow: inset 0 0 0 6px #808080 !important;
+}
+.ui.purple.labels .label,
+.ui.ui.ui.purple.label {
+background-color: #8250df!important;
+}
+.repository #clone-panel input {
+background-color: #f6f8fa
+}
+.ui.basic.green.buttons .button,
+.ui.basic.green.button {
+color: var(--color-text)!important;
+}
+ul.repo-owner-name-list {
+font-size: 13px;
+}
