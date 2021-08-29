@@ -20,3 +20,10 @@ I might update the theme over time to fix oversights and other issues - no guara
 - Aligned `border-radius` with GitHub
 - Related theme by removing a lot of hover colors and dominant button background-colors
 - Aligned markup background to GitHub's value
+
+## Screenshots
+
+|                           |                           |
+| :-----------------------: | :-----------------------: |
+| ![](figs/screenshot1.png) | ![](figs/screenshot2.png) |
+|                           |                           |
