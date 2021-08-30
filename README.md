@@ -1,5 +1,5 @@
 # gitea-github-theme
-An opinionated GitHub-based theme for Gitea
+Opinionated GitHub-based light and dark themes for Gitea
 
 Created and tested with Gitea v1.15.
 The theme might work with future versions though Gitea devs might change some CSS classes in the meantime and things might potentially look odd - just try yourself :)
@@ -26,4 +26,4 @@ I might update the theme over time to fix oversights and other issues - no guara
 |                           |                           |
 | :-----------------------: | :-----------------------: |
 | ![](figs/screenshot1.png) | ![](figs/screenshot2.png) |
-|                           |                           |
+| ![](figs/screenshot-dark1.png) | ![](figs/screenshot-dark2.png) ||
