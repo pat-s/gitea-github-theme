@@ -160,3 +160,6 @@ a.ui.label {
   cursor: pointer;
   color: #fff !important;
 }
+.ui.basic.green.buttons .button, .ui.basic.green.button {
+  color: #2da44e!important;
+}
