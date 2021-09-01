@@ -162,6 +162,11 @@ a.ui.label {
 .ui .sha.label {
   color: var(--color-text) !important;
 }
-.ui.basic.green.buttons .button, .ui.basic.green.button {
-  color: #2da44e!important;
+.ui.basic.green.buttons .button,
+.ui.basic.green.button {
+  color: #2da44e !important;
+}
+.ui.basic.labels .label,
+.ui.basic.label {
+  color: var(--color-text) !important;
 }
