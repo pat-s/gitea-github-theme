@@ -170,3 +170,20 @@ a.ui.label {
 .ui.basic.label {
   color: var(--color-text) !important;
 }
+
+.repository #commits-table td.sha .sha.label.isSigned.isVerified .detail.icon, .repository #repo-files-table .sha.label.isSigned.isVerified .detail.icon, .repository #rev-list .sha.label.isSigned.isVerified .detail.icon, .repository .timeline-item.commits-list .singular-commit .sha.label.isSigned.isVerified .detail.icon {
+  border-left: 1px solid #2da44e;
+  color: #2da44e;
+}
+
+.repository.view.issue .comment-list .timeline-item.commits-list .singular-commit .shabox .sha.label.isSigned.isVerified {
+  border: 1px solid #2da44e;
+}
+
+.ui.labeled.icon.buttons>.button>.icon, .ui.labeled.icon.button>.icon {
+  border-right: 1px solid var(--color-secondary);
+}
+
+.ui.buttons:not(.basic):not(.inverted)>.button:not(.basic):not(.inverted) {
+  border-left: 1px solid var(--color-secondary);
+}
