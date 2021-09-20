@@ -161,6 +161,7 @@ a.ui.label {
 }
 .ui .sha.label {
   color: var(--color-text) !important;
+  padding: 6px 10px 6px;
 }
 .ui.basic.green.buttons .button,
 .ui.basic.green.button {

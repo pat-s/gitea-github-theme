@@ -141,3 +141,6 @@ a.ui.label {
 .ui.menu .item {
   color: #adbac7;
 }
+.ui .sha.label {
+  padding: 6px 10px 6px;
+}
