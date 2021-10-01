@@ -4,6 +4,7 @@
   --color-body: #373e47;
   --color-navbar: #22272e;
   --color-footer: #22272e;
+  --color-text-light: #a6aab5;
   --color-text-light-2: #adbac7;
   --color-text: #768390;
   --color-box-body: #22272e;
@@ -11,9 +12,47 @@
   --color-light: #22272e;
   --color-button: #22272e;
   --color-input-background: #22272e;
+  --color-input-text: #adbac7;
   --color-box-header: #22272e;
   --color-active: #22272e;
+  --color-menu: #22272e;
+  --color-secondary: #454a57;
 }
+
+.ui.list .list > .item > .content, .ui.list > .item > .content {
+  color: unset;
+}
+
+.ui.list .list > .item .description, .ui.list > .item .description {
+  color: var(--color-text);
+}
+
+.ui.repository.list, .ui.user.list {
+  background: var(--color-box-body);
+  padding: 1em;
+  border-radius: .75em;
+}
+
+.ui .error.header {
+  border-color: var(--color-red) !important;
+  background-color: var(--color-red) !important;
+  color: #ffffff !important;
+}
+
+.ui.modal > .header {
+  background: var(--color-secondary);
+  color: #dbdbdb;
+}
+
+.ui.modal > .actions {
+  background: var(--color-secondary);
+  border-color: var(--color-secondary);
+}
+
+.ui.modal > .content {
+  background: #383c4a;
+}
+
 .ui.green.buttons .button,
 .ui.green.button {
   background-color: #347d39;
