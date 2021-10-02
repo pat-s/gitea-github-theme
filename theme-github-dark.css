@@ -183,7 +183,10 @@ a,
 }
 a.ui.label {
   color: #adbac7 !important;
-  border-color: var(--color-secondary)!important;
+  border-color: var(--color-secondary) !important;
+}
+.ui.label {
+  border-color: var(--color-secondary) !important;
 }
 .ui.menu .item {
   color: #adbac7;
