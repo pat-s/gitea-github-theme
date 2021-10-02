@@ -19,18 +19,21 @@
   --color-secondary: #454a57;
 }
 
-.ui.list .list > .item > .content, .ui.list > .item > .content {
+.ui.list .list > .item > .content,
+.ui.list > .item > .content {
   color: unset;
 }
 
-.ui.list .list > .item .description, .ui.list > .item .description {
+.ui.list .list > .item .description,
+.ui.list > .item .description {
   color: var(--color-text);
 }
 
-.ui.repository.list, .ui.user.list {
+.ui.repository.list,
+.ui.user.list {
   background: var(--color-box-body);
   padding: 1em;
-  border-radius: .75em;
+  border-radius: 0.75em;
 }
 
 .ui.header .sub.header {
@@ -186,4 +189,53 @@ a.ui.label {
 }
 .ui .sha.label {
   padding: 6px 10px 6px;
+}
+
+/* repo list dashboard */
+.feeds .list ul li.private {
+  background-color: #22272e;
+}
+
+/* ssh and search repository fields */
+input,
+textarea,
+.ui.input > input,
+.ui.form input:not([type]),
+.ui.form select,
+.ui.form textarea,
+.ui.form input[type="date"],
+.ui.form input[type="datetime-local"],
+.ui.form input[type="email"],
+.ui.form input[type="file"],
+.ui.form input[type="number"],
+.ui.form input[type="password"],
+.ui.form input[type="search"],
+.ui.form input[type="tel"],
+.ui.form input[type="text"],
+.ui.form input[type="time"],
+.ui.form input[type="url"],
+.ui.selection.dropdown,
+.ui.checkbox label:before,
+.ui.checkbox input:checked ~ label:before,
+.ui.checkbox input:not([type="radio"]):indeterminate ~ label:before {
+  border-color: var(--color-input-background);
+}
+
+/* hover repository rows */
+.repository.file.list #repo-files-table tr:hover {
+  background-color: var(--color-hover);
+}
+
+/* due date boxes */
+.repository .metas #deadlineForm input {
+  border-color: var(--color-secondary);
+}
+
+/* border color dependencies block in issues */
+#new-dependency-drop-list.ui.selection.dropdown {
+  border-color: var(--color-secondary);
+}
+
+.page-content .ui.button {
+  border-color: var(--color-secondary);
 }
