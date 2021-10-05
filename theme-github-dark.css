@@ -268,3 +268,44 @@ textarea,
 .ui.checkbox input:not([type="radio"]):indeterminate ~ label:before {
   border-color: var(--color-secondary);
 }
+
+/* right border of "find repository" field */
+.ui.action.input:not([class*="left action"])>input {
+  border-right-color: var(--color-input-border-hover);
+}
+
+/* background color of code display */
+.lines-code {
+  background-color: #22272e;
+}
+
+/* green code color dark theme */
+.chroma .s2 {
+  color: #8ddb8c;
+}
+
+.chroma .k {
+  color: #f47067;
+}
+
+.chroma .m {
+  color: #6cb6ff;
+}
+
+.chroma .nf {
+  color: #96d0ff;
+}
+
+/* border color repo files */
+.repository.file.list #repo-files-table td {
+  border-bottom: 1px solid #373e47;
+}
+
+/* text color repo files */
+.repository.file.list #repo-files-table td {
+  color: #7f8699;
+}
+
+.repository.file.list #repo-files-table td a {
+  color: #7f8699!important;
+}
