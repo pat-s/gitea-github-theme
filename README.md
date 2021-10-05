@@ -23,7 +23,7 @@ I might update the theme over time to fix oversights and other issues - no guara
 
 ## Screenshots
 
-|                           |                           |
-| :-----------------------: | :-----------------------: |
-| ![](figs/screenshot1.png) | ![](figs/screenshot2.png) |
-| ![](figs/screenshot-dark1.png) | ![](figs/screenshot-dark2.png) ||
+|                                |                                |
+| :----------------------------: | :----------------------------: |
+|   ![](figs/screenshot1.png)    |   ![](figs/screenshot2.png)    |
+| ![](figs/screenshot-dark1.png) | ![](figs/screenshot-dark2.png) |
