@@ -309,3 +309,10 @@ textarea,
 .repository.file.list #repo-files-table td a {
   color: #7f8699!important;
 }
+
+/* gpg commit label  */
+.repository #commits-table td.sha .sha.label.isSigned.isVerified, .repository #repo-files-table .sha.label.isSigned.isVerified, .repository #rev-list .sha.label.isSigned.isVerified, .repository .timeline-item.commits-list .singular-commit .sha.label.isSigned.isVerified {
+  border: 1px solid #21ba45 !important;
+  background: transparent;
+  border-radius: 6px;
+}
