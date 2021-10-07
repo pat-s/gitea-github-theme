@@ -316,3 +316,8 @@ textarea,
   background: transparent;
   border-radius: 6px;
 }
+
+/* color of active tabular item, e.g. in PR view (conversations, commits, files changed) */
+.ui.tabular.menu .active.item, .ui.tabular.menu .active.item:hover {
+  background: var(--color-navbar);
+}
