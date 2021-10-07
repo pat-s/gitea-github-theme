@@ -182,7 +182,7 @@ a,
   color: #a6aab5 !important;
 }
 a.ui.label {
-  color: #adbac7 !important;
+  /* color: #adbac7 !important; */
   border-color: var(--color-secondary) !important;
 }
 .ui.label {
@@ -320,4 +320,12 @@ textarea,
 /* color of active tabular item, e.g. in PR view (conversations, commits, files changed) */
 .ui.tabular.menu .active.item, .ui.tabular.menu .active.item:hover {
   background: var(--color-navbar);
+}
+
+/* repo watch and fork counters */
+.ui.basic.labels:not(.tag):not(.image):not(.ribbon) .label, .ui.basic.label:not(.tag):not(.image):not(.ribbon) {
+  color: #adbac7;
+}
+.repo-buttons .ui.labeled.button.disabled>.label {
+  color: #adbac7;
 }
