@@ -278,6 +278,12 @@ textarea,
 .lines-code {
   background-color: #22272e;
 }
+.code-diff-unified .add-code, .code-diff-unified .add-code td, .code-diff-split .add-code .lines-num-new, .code-diff-split .add-code .lines-type-marker-new, .code-diff-split .add-code .lines-code-new, .code-diff-split .del-code .add-code.lines-num-new, .code-diff-split .del-code .add-code.lines-type-marker-new, .code-diff-split .del-code .add-code.lines-code-new {
+  background: var(--color-navbar);
+}
+.tag-code, .tag-code td {
+  background-color: var(--color-body);
+}
 
 /* green code color dark theme */
 .chroma .s2 {
