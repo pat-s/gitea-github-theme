@@ -350,8 +350,10 @@ textarea,
 
 /* repo svg icons */
 .repository.view.issue .comment-list .timeline-item .badge .svg {
-  fill: black;
+  fill: white;
 }
-.repository.view.issue .comment-list .timeline-item .badge.badge-commit {
-  background: radial-gradient(var(--color-timeline) 40%,transparent 40%) no-repeat;
+
+/* background emoji reactions */
+.repository .segment.reactions .ui.label.basic.blue {
+  background-color: transparent;
 }
