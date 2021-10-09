@@ -329,3 +329,23 @@ textarea,
 .repo-buttons .ui.labeled.button.disabled>.label {
   color: #adbac7;
 }
+
+/* border color of warning message */
+.ui.warning.message {
+  background-color: #22272e;
+  color: var(--color-text);
+}
+.ui.warning.message, .ui.attached.warning.message {
+  box-shadow: null;
+}
+.ui.warning.message, .ui.attached.warning.message {
+  box-shadow: 0 0 0 0px #c9ba9b inset, 0 0 #0000;
+}
+
+/* repo svg icons */
+.repository.view.issue .comment-list .timeline-item .badge .svg {
+  fill: black;
+}
+.repository.view.issue .comment-list .timeline-item .badge.badge-commit {
+  background: radial-gradient(var(--color-timeline) 40%,transparent 40%) no-repeat;
+}
