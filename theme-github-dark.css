@@ -357,3 +357,7 @@ textarea,
 .repository .segment.reactions .ui.label.basic.blue {
   background-color: transparent;
 }
+
+.ui.positive.message {
+  color: #bbc0ca;
+}
