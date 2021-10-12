@@ -279,7 +279,7 @@ textarea,
   background-color: #22272e;
 }
 .code-diff-unified .add-code, .code-diff-unified .add-code td, .code-diff-split .add-code .lines-num-new, .code-diff-split .add-code .lines-type-marker-new, .code-diff-split .add-code .lines-code-new, .code-diff-split .del-code .add-code.lines-num-new, .code-diff-split .del-code .add-code.lines-type-marker-new, .code-diff-split .del-code .add-code.lines-code-new {
-  background: var(--color-navbar);
+  background: #224035;
 }
 .tag-code, .tag-code td {
   background-color: var(--color-body);
@@ -360,4 +360,26 @@ textarea,
 
 .ui.positive.message {
   color: #bbc0ca;
+}
+
+/* diff color deletion */
+.code-diff-unified .del-code, .code-diff-unified .del-code td, .code-diff-split .del-code .lines-num-old, .code-diff-split .del-code .lines-type-marker-old, .code-diff-split .del-code .lines-code-old {
+  background: #7a341e;
+}
+
+/* diff color neutral */
+.lines-num, .lines-code {
+  background-color: var(--color-navbar);
+}
+
+.lines-type-marker {
+  background-color: var(--color-navbar);
+}
+a.blob-excerpt {
+  background: var(--color-body);
+}
+
+/* PR open label */
+.ui.green.labels .label, .ui.ui.ui.green.label {
+  background-color: #347d39;
 }
