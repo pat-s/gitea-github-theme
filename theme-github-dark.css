@@ -383,3 +383,11 @@ a.blob-excerpt {
 .ui.green.labels .label, .ui.ui.ui.green.label {
   background-color: #347d39;
 }
+
+/* bg color of PR comment form */
+.ui.form, .ui.form .field .dropdown, .ui.form .field .dropdown .menu>.item {
+  background-color: var(--color-navbar);
+}
+.comment-code-cloud {
+  background-color: var(--color-navbar);
+}
