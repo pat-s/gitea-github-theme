@@ -270,7 +270,7 @@ textarea,
 }
 
 /* right border of "find repository" field */
-.ui.action.input:not([class*="left action"])>input {
+.ui.action.input:not([class*="left action"]) > input {
   border-right-color: var(--color-input-border-hover);
 }
 
@@ -278,10 +278,18 @@ textarea,
 .lines-code {
   background-color: #22272e;
 }
-.code-diff-unified .add-code, .code-diff-unified .add-code td, .code-diff-split .add-code .lines-num-new, .code-diff-split .add-code .lines-type-marker-new, .code-diff-split .add-code .lines-code-new, .code-diff-split .del-code .add-code.lines-num-new, .code-diff-split .del-code .add-code.lines-type-marker-new, .code-diff-split .del-code .add-code.lines-code-new {
+.code-diff-unified .add-code,
+.code-diff-unified .add-code td,
+.code-diff-split .add-code .lines-num-new,
+.code-diff-split .add-code .lines-type-marker-new,
+.code-diff-split .add-code .lines-code-new,
+.code-diff-split .del-code .add-code.lines-num-new,
+.code-diff-split .del-code .add-code.lines-type-marker-new,
+.code-diff-split .del-code .add-code.lines-code-new {
   background: #224035;
 }
-.tag-code, .tag-code td {
+.tag-code,
+.tag-code td {
   background-color: var(--color-body);
 }
 
@@ -313,26 +321,34 @@ textarea,
 }
 
 .repository.file.list #repo-files-table td a {
-  color: #7f8699!important;
+  color: #7f8699 !important;
 }
 
 /* gpg commit label  */
-.repository #commits-table td.sha .sha.label.isSigned.isVerified, .repository #repo-files-table .sha.label.isSigned.isVerified, .repository #rev-list .sha.label.isSigned.isVerified, .repository .timeline-item.commits-list .singular-commit .sha.label.isSigned.isVerified {
+.repository #commits-table td.sha .sha.label.isSigned.isVerified,
+.repository #repo-files-table .sha.label.isSigned.isVerified,
+.repository #rev-list .sha.label.isSigned.isVerified,
+.repository
+  .timeline-item.commits-list
+  .singular-commit
+  .sha.label.isSigned.isVerified {
   border: 1px solid #21ba45 !important;
   background: transparent;
   border-radius: 6px;
 }
 
 /* color of active tabular item, e.g. in PR view (conversations, commits, files changed) */
-.ui.tabular.menu .active.item, .ui.tabular.menu .active.item:hover {
+.ui.tabular.menu .active.item,
+.ui.tabular.menu .active.item:hover {
   background: var(--color-navbar);
 }
 
 /* repo watch and fork counters */
-.ui.basic.labels:not(.tag):not(.image):not(.ribbon) .label, .ui.basic.label:not(.tag):not(.image):not(.ribbon) {
+.ui.basic.labels:not(.tag):not(.image):not(.ribbon) .label,
+.ui.basic.label:not(.tag):not(.image):not(.ribbon) {
   color: #adbac7;
 }
-.repo-buttons .ui.labeled.button.disabled>.label {
+.repo-buttons .ui.labeled.button.disabled > .label {
   color: #adbac7;
 }
 
@@ -341,10 +357,12 @@ textarea,
   background-color: #22272e;
   color: var(--color-text);
 }
-.ui.warning.message, .ui.attached.warning.message {
+.ui.warning.message,
+.ui.attached.warning.message {
   box-shadow: null;
 }
-.ui.warning.message, .ui.attached.warning.message {
+.ui.warning.message,
+.ui.attached.warning.message {
   box-shadow: 0 0 0 0px #c9ba9b inset, 0 0 #0000;
 }
 
@@ -363,12 +381,17 @@ textarea,
 }
 
 /* diff color deletion */
-.code-diff-unified .del-code, .code-diff-unified .del-code td, .code-diff-split .del-code .lines-num-old, .code-diff-split .del-code .lines-type-marker-old, .code-diff-split .del-code .lines-code-old {
+.code-diff-unified .del-code,
+.code-diff-unified .del-code td,
+.code-diff-split .del-code .lines-num-old,
+.code-diff-split .del-code .lines-type-marker-old,
+.code-diff-split .del-code .lines-code-old {
   background: #7a341e;
 }
 
 /* diff color neutral */
-.lines-num, .lines-code {
+.lines-num,
+.lines-code {
   background-color: var(--color-navbar);
 }
 
@@ -380,14 +403,22 @@ a.blob-excerpt {
 }
 
 /* PR open label */
-.ui.green.labels .label, .ui.ui.ui.green.label {
+.ui.green.labels .label,
+.ui.ui.ui.green.label {
   background-color: #347d39;
 }
 
 /* bg color of PR comment form */
-.ui.form, .ui.form .field .dropdown, .ui.form .field .dropdown .menu>.item {
+.ui.form,
+.ui.form .field .dropdown,
+.ui.form .field .dropdown .menu > .item {
   background-color: var(--color-navbar);
 }
 .comment-code-cloud {
   background-color: var(--color-navbar);
+}
+
+/* remove border of "new file" button */
+.ui.buttons .button:first-child {
+  border-left: 0px solid var(--color-light-border);
 }
