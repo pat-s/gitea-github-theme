@@ -455,3 +455,8 @@ a.blob-excerpt {
 .user.profile .ui.card .extra.content ul li {
   background-color: var(--color-navbar);
 }
+
+/* right border of profile search bar */
+.ui.action.input:not([class*="left action"]) > input {
+  border-right-color: var(--color-text);
+}
