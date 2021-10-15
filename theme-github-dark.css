@@ -71,7 +71,8 @@
 }
 a,
 .ui.breadcrumb a {
-  color: var(--color-text) !important;
+  /* color: var(--color-text); */
+  color: #539bf5;
 }
 .repo-title a {
   color: #539bf5 !important;
@@ -173,7 +174,7 @@ a,
 }
 a,
 .push.news {
-  color: #a6aab5 !important;
+  color: null;
 }
 .ui.header {
   color: #a6aab5;
