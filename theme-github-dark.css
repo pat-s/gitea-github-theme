@@ -422,3 +422,10 @@ a.blob-excerpt {
 .ui.buttons .button:first-child {
   border-left: 0px solid var(--color-light-border);
 }
+
+/* border color of dropdown svg */
+.ui.form,
+.ui.form .field .dropdown,
+.ui.form .field .dropdown .menu > .item {
+  background-color: var(--color-border);
+}
