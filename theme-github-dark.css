@@ -435,3 +435,23 @@ a.blob-excerpt {
 .ui.form .field .dropdown .menu > .item {
   background-color: var(--color-border);
 }
+
+/* hover font color */
+.ui.secondary.pointing.menu .active.item, .ui.secondary.pointing.menu .active.item:hover, .ui.secondary.pointing.menu .dropdown.item:hover, .ui.secondary.pointing.menu .link.item:hover, .ui.secondary.pointing.menu a.item:hover {
+  color: var(--color-text);
+}
+
+/* user avatar background */
+.user.profile .ui.card #profile-avatar {
+  background: var(--color-navbar);
+}
+.ui.cards>.card>.content, .ui.card>.content {
+  background: var(--color-navbar);
+}
+.user.profile .ui.card .extra.content ul li:not(:last-child) {
+  border-bottom: 1px solid var(--color-secondary);
+  background-color: var(--color-navbar);
+}
+.user.profile .ui.card .extra.content ul li {
+  background-color: var(--color-navbar);
+}
