@@ -377,7 +377,12 @@ textarea,
 }
 
 .ui.positive.message {
-  color: #bbc0ca;
+  background-color: #22272e;
+  color: #fff;
+}
+.ui.positive.message,
+.ui.attached.positive.message {
+  box-shadow: 0 0 0 1px #2c662d inset, 0 0 #0000;
 }
 
 /* diff color deletion */
