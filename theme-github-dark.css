@@ -465,3 +465,27 @@ a.blob-excerpt {
 .lines-num span:after {
   color: var(--color-text);
 }
+
+/* gpg key signed message */
+.repository .ui.attached.isSigned.isVerified.message {
+  background-color: var(--color-primary);
+  color: black;
+}
+
+.repository .ui.attached.isSigned.isVerified.message .ui.text {
+  color: var(--color-active);
+}
+
+.ui .info.segment.top {
+  background-color: var(--color-navbar)!important;
+}
+.repository .ui.attached.isSigned.isVerified.top, .repository .ui.attached.isSigned.isVerified.message {
+  border-top: 0px solid var(--color-text);
+}
+.repository .ui.attached.isSigned.isVerified {
+  border-left: 0px solid var(--color-text);
+  border-right: 0px solid var(--color-text);
+}
+.repository .ui.attached.isSigned.isVerified:last-child, .repository .ui.attached.isSigned.isVerified.bottom {
+  border-bottom: 0px solid #a3c293;
+}
