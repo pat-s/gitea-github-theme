@@ -460,3 +460,8 @@ a.blob-excerpt {
 .ui.action.input:not([class*="left action"]) > input {
   border-right-color: var(--color-text);
 }
+
+/* font color line numbers */
+.lines-num span:after {
+  color: var(--color-text);
+}
