@@ -311,6 +311,10 @@ textarea,
   color: #96d0ff;
 }
 
+.chroma .nb {
+  color: #539bf5;
+}
+
 /* border color repo files */
 .repository.file.list #repo-files-table td {
   border-bottom: 1px solid #373e47;
