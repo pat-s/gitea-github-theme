@@ -441,7 +441,11 @@ a.blob-excerpt {
 }
 
 /* hover font color */
-.ui.secondary.pointing.menu .active.item, .ui.secondary.pointing.menu .active.item:hover, .ui.secondary.pointing.menu .dropdown.item:hover, .ui.secondary.pointing.menu .link.item:hover, .ui.secondary.pointing.menu a.item:hover {
+.ui.secondary.pointing.menu .active.item,
+.ui.secondary.pointing.menu .active.item:hover,
+.ui.secondary.pointing.menu .dropdown.item:hover,
+.ui.secondary.pointing.menu .link.item:hover,
+.ui.secondary.pointing.menu a.item:hover {
   color: var(--color-text);
 }
 
@@ -449,7 +453,8 @@ a.blob-excerpt {
 .user.profile .ui.card #profile-avatar {
   background: var(--color-navbar);
 }
-.ui.cards>.card>.content, .ui.card>.content {
+.ui.cards > .card > .content,
+.ui.card > .content {
   background: var(--color-navbar);
 }
 .user.profile .ui.card .extra.content ul li:not(:last-child) {
@@ -481,16 +486,18 @@ a.blob-excerpt {
 }
 
 .ui .info.segment.top {
-  background-color: var(--color-navbar)!important;
+  background-color: var(--color-navbar) !important;
 }
-.repository .ui.attached.isSigned.isVerified.top, .repository .ui.attached.isSigned.isVerified.message {
+.repository .ui.attached.isSigned.isVerified.top,
+.repository .ui.attached.isSigned.isVerified.message {
   border-top: 0px solid var(--color-text);
 }
 .repository .ui.attached.isSigned.isVerified {
   border-left: 0px solid var(--color-text);
   border-right: 0px solid var(--color-text);
 }
-.repository .ui.attached.isSigned.isVerified:last-child, .repository .ui.attached.isSigned.isVerified.bottom {
+.repository .ui.attached.isSigned.isVerified:last-child,
+.repository .ui.attached.isSigned.isVerified.bottom {
   border-bottom: 0px solid #a3c293;
 }
 
@@ -507,6 +514,10 @@ a.blob-excerpt {
 .repository.view.issue .comment-list .timeline-item .badge {
   background-color: var(--color-text);
   color: var(--color-text);
+  width: 30px;
+  height: 30px;
+  margin-left: -31px;
+}
 }
 .repository.view.issue .comment-list .timeline-item .badge.badge-commit {
   border-color: var(--color-text);
@@ -514,4 +525,9 @@ a.blob-excerpt {
 }
 .repository.view.issue .comment-list .timeline:before {
   background-color: var(--color-text);
+}
+.repository.view.issue .comment-list .timeline-item .badge .svg {
+  width: 17px;
+  height: 17px;
+  padding: 3px;
 }
