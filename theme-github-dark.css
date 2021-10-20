@@ -521,13 +521,12 @@ a.blob-excerpt {
   height: 30px;
   margin-left: -31px;
 }
-}
 .repository.view.issue .comment-list .timeline-item .badge.badge-commit {
-  border-color: var(--color-text);
+  border-color: var(--color-text-light);
   background: var(--color-text);
 }
 .repository.view.issue .comment-list .timeline:before {
-  background-color: var(--color-text);
+  background-color: var(--color-secondary);
 }
 .repository.view.issue .comment-list .timeline-item .badge .svg {
   width: 17px;
