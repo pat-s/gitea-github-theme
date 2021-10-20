@@ -314,6 +314,9 @@ textarea,
 .chroma .nb {
   color: #539bf5;
 }
+.chroma .nx {
+  color: var(--color-text);
+}
 
 /* border color repo files */
 .repository.file.list #repo-files-table td {
