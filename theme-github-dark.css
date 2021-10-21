@@ -272,7 +272,7 @@ textarea,
 
 /* right border of "find repository" field */
 .ui.action.input:not([class*="left action"]) > input {
-  border-right-color: var(--color-input-border-hover);
+  border-right-color: var(--color-light);
 }
 
 /* background color of code display */
