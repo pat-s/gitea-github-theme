@@ -17,6 +17,7 @@
   --color-active: #22272e;
   --color-menu: #22272e;
   --color-secondary: #454a57;
+  --color-caret: var(--color-text);
 }
 
 .ui.list .list > .item > .content,
