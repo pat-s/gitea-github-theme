@@ -534,3 +534,12 @@ a.blob-excerpt {
   height: 17px;
   padding: 3px;
 }
+
+.removed-code {
+  background: #b70f22;
+  color: var(--color-text);
+}
+.added-code {
+  background: #0d8b2c;
+  color: var(--color-text);
+}
