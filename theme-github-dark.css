@@ -535,6 +535,10 @@ a.blob-excerpt {
   padding: 3px;
 }
 
+input {
+  caret-color: var(--color-text);
+}
+
 .removed-code {
   background: #b70f22;
   color: var(--color-text);
