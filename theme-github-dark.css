@@ -434,7 +434,7 @@ a.blob-excerpt {
 
 /* remove border of "new file" button */
 .ui.buttons .button:first-child {
-  border-left: 0px solid var(--color-light-border);
+  border-left: 1px solid var(--color-markup-code-block);
 }
 
 /* border color of dropdown svg */
@@ -546,4 +546,10 @@ input {
 .added-code {
   background: #0d8b2c;
   color: var(--color-text);
+}
+
+/* review - pending label */
+.ui.basic.labels .yellow.label, .ui.ui.ui.basic.yellow.label {
+  background: var(--color-project-board-bg);
+  color: #333 !important;
 }
