@@ -377,7 +377,7 @@ textarea,
 
 /* repo svg icons */
 .repository.view.issue .comment-list .timeline-item .badge .svg {
-  fill: white;
+  fill: var(--color-text-light);
 }
 
 /* background emoji reactions */
@@ -523,15 +523,15 @@ a.blob-excerpt {
   margin-left: -31px;
 }
 .repository.view.issue .comment-list .timeline-item .badge.badge-commit {
-  border-color: var(--color-text-light);
-  background: var(--color-text);
+  border-color: var(--color-navbar);
+  background: var(--color-navbar);
 }
 .repository.view.issue .comment-list .timeline:before {
   background-color: var(--color-secondary);
 }
 .repository.view.issue .comment-list .timeline-item .badge .svg {
-  width: 17px;
-  height: 17px;
+  width: 20px;
+  height: 20px;
   padding: 3px;
 }
 
@@ -552,4 +552,15 @@ input {
 .ui.basic.labels .yellow.label, .ui.ui.ui.basic.yellow.label {
   background: var(--color-project-board-bg);
   color: #333 !important;
+}
+
+/* green checkmark background when approving PRs */
+.bg-green {
+  background: var(--color-primary)!important;
+}
+i.green.icon.icon.icon.icon {
+  color: var(--color-primary);
+}
+span.green .svg {
+  color: var(--color-primary);
 }
