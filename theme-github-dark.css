@@ -319,6 +319,13 @@ textarea,
   color: var(--color-text);
 }
 
+.chroma .nv {
+  color: #08dddd;
+}
+.chroma .si {
+  color: #26dd0a;
+}
+
 /* border color repo files */
 .repository.file.list #repo-files-table td {
   border-bottom: 1px solid #373e47;
