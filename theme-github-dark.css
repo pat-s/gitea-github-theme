@@ -571,3 +571,14 @@ i.green.icon.icon.icon.icon {
 span.green .svg {
   color: var(--color-primary);
 }
+
+/* highlight color bg for highlighted lines */
+.lines-code.active, .lines-code .active {
+  border-radius: 6px;
+  background: #000000!important;
+}
+.ui.ui.ui.ui.table tr.active, .ui.ui.table td.active {
+  box-shadow: 0 0 #000000de inset;
+  background: #E0E0E0;
+  color: --var(--color-text);
+}
