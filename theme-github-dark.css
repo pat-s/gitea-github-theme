@@ -323,7 +323,25 @@ textarea,
   color: #08dddd;
 }
 .chroma .si {
-  color: #26dd0a;
+  color: #8ddb8c;
+}
+.chroma .nt {
+  color: #50eb75;
+}
+.chroma .nd {
+  color: #c4cfcf;
+}
+.chroma .o {
+  color: #eb3243;
+}
+.chroma .nc {
+  color: #16e9e9;
+}
+.chroma .nn {
+  color: #16e9e9;
+}
+.chroma .s {
+  color: #8ddb8c;
 }
 
 /* border color repo files */
@@ -384,7 +402,7 @@ textarea,
 
 /* repo svg icons */
 .repository.view.issue .comment-list .timeline-item .badge .svg {
-  fill: var(--color-text-light);
+  fill: var(--color-text-light)!important;
 }
 
 /* background emoji reactions */
@@ -523,7 +541,7 @@ a.blob-excerpt {
   fill: black;
 }
 .repository.view.issue .comment-list .timeline-item .badge {
-  background-color: var(--color-text);
+  background-color: var(--color-navbar);
   color: var(--color-text);
   width: 30px;
   height: 30px;
