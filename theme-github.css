@@ -188,3 +188,28 @@ a.ui.label {
 .ui.buttons:not(.basic):not(.inverted)>.button:not(.basic):not(.inverted) {
   border-left: 1px solid var(--color-secondary);
 }
+
+/* GPG verified msg banner */
+.repository .ui.attached.isSigned.isVerified.message .ui.text {
+  color: black;
+}
+.repository .ui.attached.isSigned.isVerified:last-child, .repository .ui.attached.isSigned.isVerified.bottom {
+  border-bottom: 1px solid #21ba45;
+}
+.repository .ui.attached.isSigned.isVerified.top, .repository .ui.attached.isSigned.isVerified.message {
+  border-top: 1px solid var(--color-secondary);
+}
+.repository .ui.attached.isSigned.isVerified {
+  border-left: 1px solid var(--color-secondary);
+  border-right: 1px solid var(--color-secondary);
+}
+.repository .ui.attached.isSigned.isVerified.message {
+  box-shadow: none;
+  background-color: #21ba45;
+  color: black;
+}
+
+/* bg color of commit info box */
+.ui .info.segment.top {
+  background-color: var(--color-navbar)!important;
+}
