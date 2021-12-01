@@ -47,9 +47,10 @@
 .ui.label {
   padding: 0.5em 0.5em;
 }
+/* "edit" and "reopen" button font color */
 .ui.basic.green.buttons .button,
 .ui.basic.green.button {
-  color: #2da44e;
+  color: #24292f;
 }
 .feeds .list ul li.private {
   background: none;
