@@ -18,6 +18,8 @@
   --color-menu: #22272e;
   --color-secondary: #454a57;
   --color-caret: var(--color-text);
+  /* allows gitea to detect dark themes and changes the monaco code editor colors to dark ones */
+  --is-dark-theme: true;
 }
 
 .ui.list .list > .item > .content,
@@ -402,7 +404,7 @@ textarea,
 
 /* repo svg icons */
 .repository.view.issue .comment-list .timeline-item .badge .svg {
-  fill: var(--color-text-light)!important;
+  fill: var(--color-text-light) !important;
 }
 
 /* background emoji reactions */
@@ -574,14 +576,15 @@ input {
 }
 
 /* review - pending label */
-.ui.basic.labels .yellow.label, .ui.ui.ui.basic.yellow.label {
+.ui.basic.labels .yellow.label,
+.ui.ui.ui.basic.yellow.label {
   background: var(--color-project-board-bg);
   color: #333 !important;
 }
 
 /* green checkmark background when approving PRs */
 .bg-green {
-  background: var(--color-primary)!important;
+  background: var(--color-primary) !important;
 }
 i.green.icon.icon.icon.icon {
   color: var(--color-primary);
@@ -591,12 +594,14 @@ span.green .svg {
 }
 
 /* highlight color bg for highlighted lines */
-.lines-code.active, .lines-code .active {
+.lines-code.active,
+.lines-code .active {
   border-radius: 6px;
-  background: #000000!important;
+  background: #000000 !important;
 }
-.ui.ui.ui.ui.table tr.active, .ui.ui.table td.active {
+.ui.ui.ui.ui.table tr.active,
+.ui.ui.table td.active {
   box-shadow: 0 0 #000000de inset;
-  background: #E0E0E0;
+  background: #e0e0e0;
   color: --var(--color-text);
 }
