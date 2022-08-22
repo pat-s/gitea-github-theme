@@ -1,0 +1,1186 @@
+@media (prefers-color-scheme: light) {
+  :root {
+    --border-radius: 6px;
+    --color-primary: #0969da;
+    --color-navbar: #f6f8fa;
+    --color-active: #f6f8fa;
+    --color-markup-code-block: #f6f8fa;
+    --color-hover: none;
+    --color-purple: #8250df;
+    --color-green: #1a7f37;
+  }
+  .ui.label {
+    padding: 0.3em 0.5em;
+    background: var(--color-light);
+    color: var(--color-text-light);
+    border-radius: 6px;
+  }
+  .ui.blue.label,
+  .ui.blue.labels .label,
+  .ui.primary.label,
+  .ui.primary.labels .label {
+    border-color: var(--color-light) !important;
+    background-color: #afb8c133 !important;
+    border-radius: 6px;
+    color: #24292f !important;
+  }
+  .ui.blue.button,
+  .ui.blue.buttons .button,
+  .ui.primary.button,
+  .ui.primary.buttons .button {
+    background-color: #f6f8fa !important;
+    color: #24292f !important;
+  }
+  .repo-icon {
+    display: inline-block;
+    transform: scale(0.75);
+    margin-right: -0.05rem !important;
+  }
+  .ui.green.buttons .button,
+  .ui.green.button {
+    background-color: #1a7f37;
+    color: #fff !important;
+  }
+  .ui.green.labels .label,
+  .ui.ui.ui.green.label {
+    background-color: #1a7f37;
+    color: #fff !important;
+  }
+  .ui.label {
+    padding: 0.5em 0.5em;
+  }
+  /* "edit" and "reopen" button font color */
+  .ui.basic.green.buttons .button,
+  .ui.basic.green.button {
+    color: #24292f;
+  }
+  .feeds .list ul li.private {
+    background: none;
+  }
+  .repository.file.list #repo-files-table tbody .svg.octicon-file-directory,
+  .repository.file.list #repo-files-table tbody .svg.octicon-file-submodule {
+    color: #54aeff;
+  }
+  a,
+  .ui.breadcrumb a {
+    color: var(--color-text) !important;
+  }
+  .repo-title a {
+    color: var(--color-primary) !important;
+  }
+  .ui.basic.blue.button,
+  .ui.basic.blue.buttons .button,
+  .ui.basic.primary.button,
+  .ui.basic.primary.buttons .button {
+    background-color: #fff !important;
+    box-shadow: inset 0 0 0 1px rgba(34, 36, 38, 0.15) !important;
+    color: var(--color-text) !important;
+  }
+  .ui.basic.blue.button:focus,
+  .ui.basic.blue.buttons .button:focus,
+  .ui.basic.primary.button:focus,
+  .ui.basic.primary.buttons .button:focus {
+    box-shadow: inset 0 0 0 0px #808080 !important;
+  }
+  .ui.basic.blue.button:hover,
+  .ui.basic.blue.buttons .button:hover,
+  .ui.basic.primary.button:hover,
+  .ui.basic.primary.buttons .button:hover {
+    background-color: #fff !important;
+  }
+  ui.basic.blue.button:hover,
+  .ui.basic.blue.buttons .button:hover,
+  .ui.basic.primary.button:hover,
+  .ui.basic.primary.buttons .button:hover {
+    box-shadow: inset 0 0 0 0px #808080 !important;
+  }
+  a:hover,
+  a.muted:hover,
+  .ui.breadcrumb a:hover {
+    color: none;
+  }
+  .ui.tabular.menu .item:hover {
+    color: none;
+  }
+  .ui.basic.labels .label,
+  .ui.basic.label {
+    background-color: #fff;
+  }
+  .ui.labeled.button.disabled > .button,
+  .ui.basic.buttons .button,
+  .ui.basic.button {
+    background-color: #f6f8fa;
+  }
+  .ui.blue.button:hover,
+  .ui.blue.buttons .button:hover,
+  .ui.primary.button:hover,
+  .ui.primary.buttons .button:hover {
+    background-color: var(--color-hover) !important;
+  }
+  .repository .ui.segment.sub-menu .list .item a:hover {
+    color: var(--color-text) !important;
+  }
+  .repo-buttons .ui.labeled.button > .label:hover {
+    color: var(--color-text) !important;
+  }
+  .repository.file.list #repo-files-table tr:hover {
+    background-color: #f6f8fa !important;
+  }
+  .ui .error.header {
+    background-color: #cf222e !important;
+    color: #fff !important;
+  }
+  .ui.red.buttons .button,
+  .ui.red.button {
+    color: #fff !important;
+  }
+  .ui.basic.red.buttons .button,
+  .ui.basic.red.button {
+    color: #cf222e !important;
+    font-weight: 500;
+  }
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #f6f8fa transparent !important;
+  }
+  ::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 0 6px #808080 !important;
+  }
+  .ui.purple.labels .label,
+  .ui.ui.ui.purple.label {
+    background-color: #8250df !important;
+  }
+  .repository #clone-panel input {
+    background-color: #f6f8fa;
+  }
+  .ui.basic.green.buttons .button,
+  .ui.basic.green.button {
+    color: var(--color-text) !important;
+  }
+  ul.repo-owner-name-list {
+    font-size: 13px;
+  }
+  a.ui.label {
+    color: #fff !important;
+  }
+  .ui .sha.label {
+    color: var(--color-text) !important;
+    padding: 6px 10px 6px;
+  }
+  .ui.basic.green.buttons .button,
+  .ui.basic.green.button {
+    color: #1a7f37 !important;
+  }
+  .ui.basic.labels .label,
+  .ui.basic.label {
+    color: var(--color-text) !important;
+  }
+
+  .repository #commits-table td.sha .sha.label.isSigned.isVerified .detail.icon,
+  .repository #repo-files-table .sha.label.isSigned.isVerified .detail.icon,
+  .repository #rev-list .sha.label.isSigned.isVerified .detail.icon,
+  .repository
+    .timeline-item.commits-list
+    .singular-commit
+    .sha.label.isSigned.isVerified
+    .detail.icon {
+    border-left: 1px solid #1a7f37;
+    color: #1a7f37;
+  }
+
+  .repository.view.issue
+    .comment-list
+    .timeline-item.commits-list
+    .singular-commit
+    .shabox
+    .sha.label.isSigned.isVerified {
+    border: 1px solid #1a7f37;
+  }
+
+  .ui.labeled.icon.buttons > .button > .icon,
+  .ui.labeled.icon.button > .icon {
+    border-right: 1px solid var(--color-secondary);
+  }
+
+  .ui.buttons:not(.basic):not(.inverted) > .button:not(.basic):not(.inverted) {
+    border-left: 1px solid var(--color-secondary);
+  }
+
+  /* GPG verified msg banner */
+  .repository .ui.attached.isSigned.isVerified.message .ui.text {
+    color: black;
+  }
+  .repository .ui.attached.isSigned.isVerified:last-child,
+  .repository .ui.attached.isSigned.isVerified.bottom {
+    border-bottom: 1px solid #21ba45;
+  }
+  .repository .ui.attached.isSigned.isVerified.top,
+  .repository .ui.attached.isSigned.isVerified.message {
+    border-top: 1px solid var(--color-secondary);
+  }
+  .repository .ui.attached.isSigned.isVerified {
+    border-left: 1px solid var(--color-secondary);
+    border-right: 1px solid var(--color-secondary);
+  }
+  .repository .ui.attached.isSigned.isVerified.message {
+    box-shadow: none;
+    background-color: #21ba45;
+    color: black;
+  }
+
+  /* bg color of commit info box */
+  .ui .info.segment.top {
+    background-color: var(--color-navbar) !important;
+  }
+
+  .repo-icon {
+    display: none;
+  }
+
+  /* navbar font size */
+  .ui.secondary.menu .item {
+    font-size: 13px;
+  }
+
+  #navbar .item {
+    margin: 0;
+    padding: 0.5em;
+    font-size: 14px;
+    color: black;
+  }
+
+  .following.bar #navbar {
+    width: 100vw;
+    /* default 52px */
+    min-height: 40px;
+    padding: 0 0.5rem;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 0 6px var(--color-navbar);
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    box-shadow: inset 0 0 0 6px var(--color-text);
+  }
+
+  .following.bar #navbar .brand {
+    margin-top: -2px;
+  }
+
+  /* reduce navbar bottom margin */
+  .ui.ui.ui.container:not(.fluid) {
+    margin-bottom: -3px;
+  }
+
+  /* Link color for repo breadcrumbs */
+  a,
+  .ui.breadcrumb a {
+    color: var(--color-primary) !important;
+  }
+
+  /* color for repo menu bar to overwrite link color */
+  .ui.tabular.menu .item {
+    color: var(--color-text) !important;
+  }
+
+  .repository .ui.segment.sub-menu .list .item a {
+    color: var(--color-text) !important;
+  }
+
+  .ui .menu:not(.vertical) .item > .button.compact {
+    color: var(--color-text) !important;
+  }
+
+  .ui.labeled.button.disabled > .button,
+  .ui.basic.buttons .button,
+  .ui.basic.button {
+    color: var(--color-text-light) !important;
+  }
+
+  #manage_topic {
+    font-size: 12px;
+    color: var(--color-text) !important;
+  }
+
+  .ui.menu .item {
+    color: var(--color-text) !important;
+  }
+
+  /* font weight of "danger zone" buttons in "delete repo" */
+  .ui.basic.red.buttons .button,
+  .ui.basic.red.button {
+    font-weight: 500;
+  }
+
+  .ui.label {
+    background: rgba(175, 184, 193, 0.2);
+  }
+
+  .comment-header .actions a {
+    color: black !important;
+  }
+
+  .ui.dropdown > .text {
+    color: black !important;
+  }
+
+  .repository.compare.pull .choose.branch .svg {
+    color: black !important;
+  }
+
+  a.muted {
+    color: black !important;
+  }
+
+  .repository.file.list
+    #repo-files-table
+    tbody
+    .svg.octicon-file-directory-fill,
+  .repository.file.list #repo-files-table tbody .svg.octicon-file-submodule {
+    color: #54aeff !important;
+  }
+  .repository.file.list #repo-files-table td a {
+    color: black !important;
+  }
+
+  .ui.negative.buttons .button,
+  .ui.negative.button {
+    background-color: none;
+    color: #db2828;
+  }
+
+  .ui.green.button {
+    padding: 5px 16px;
+    line-height: 20px;
+  }
+
+  .ui.green.labels .label,
+  .ui.ui.ui.green.label {
+    padding: 5px 16px;
+    line-height: 20px;
+  }
+
+  .ui.tabular.menu .active.item {
+    margin-bottom: 2px;
+  }
+
+  .ui.secondary.pointing.menu .item > .circular.label {
+    line-height: 10px;
+  }
+
+  .ui.grey.labels .label,
+  .ui.ui.ui.grey.label {
+    line-height: 10px;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-primary: #347d39;
+    --color-secondary: #535865;
+    --border-radius: 6px;
+    --color-body: #373e47;
+    --color-navbar: #22272e;
+    --color-footer: #22272e;
+    --color-text-light: #a6aab5;
+    --color-text-light-2: #adbac7;
+    --color-text: #bbc0ca;
+    --color-box-body: #22272e;
+    --color-markup-code-block: #636e7b66;
+    --color-light: #22272e;
+    --color-button: #22272e;
+    --color-input-background: #22272e;
+    --color-input-border-hover: #8e8c8c;
+    --color-input-text: #adbac7;
+    --color-box-header: #22272e;
+    --color-active: #22272e;
+    --color-menu: #22272e;
+    --color-caret: var(--color-text);
+    --is-dark-theme: true;
+    --color-blue: #539bf5;
+    --color-input-background: #22272e;
+
+    /* code editor colors are set in https://github.com/go-gitea/gitea/blob/f5b300ea77081a1b78ac044cb1c0f9225538d091/web_src/js/features/codeeditor.js#L82-L97.  */
+    /* monaco editor dark theme is toggled via variable `--is-dark-theme` */
+    --color-primary-light-3: #71798e;
+    --color-editor-line-highlight: #71798e;
+    --color-code-bg: var(--color-input-background);
+  }
+
+  .ui.list .list > .item > .content,
+  .ui.list > .item > .content {
+    color: unset;
+  }
+
+  .ui.list .list > .item .description,
+  .ui.list > .item .description {
+    color: var(--color-text);
+  }
+
+  .ui.repository.list,
+  .ui.user.list {
+    background: var(--color-box-body);
+    padding: 1em;
+    border-radius: 0.75em;
+  }
+
+  .ui.header .sub.header {
+    color: #636e7b;
+  }
+
+  .ui .error.header {
+    border-color: var(--color-red) !important;
+    background-color: var(--color-red) !important;
+    color: #ffffff !important;
+  }
+
+  .ui.modal > .header {
+    background: var(--color-secondary);
+    color: #dbdbdb;
+  }
+
+  .ui.modal > .actions {
+    background: var(--color-secondary);
+    border-color: var(--color-secondary);
+  }
+
+  .ui.modal > .content {
+    background: #383c4a;
+  }
+
+  .ui.green.buttons .button,
+  .ui.green.button {
+    background-color: #347d39;
+    color: #ffffffe6 !important;
+  }
+
+  .repository.file.list #repo-files-table tbody .svg.octicon-file-directory,
+  .repository.file.list #repo-files-table tbody .svg.octicon-file-submodule {
+    color: #768390;
+  }
+
+  a,
+  .ui.breadcrumb a {
+    /* color: var(--color-text); */
+    color: var(--color-blue);
+  }
+
+  .repo-title a {
+    color: var(--color-blue) !important;
+  }
+
+  .ui.table > thead > tr > th {
+    background: #636e7b1a;
+    color: #dbdbdb !important;
+  }
+
+  .repository.file.list #repo-files-table tr {
+    background: #22272e;
+  }
+
+  .repo-icon {
+    display: inline-block;
+    transform: scale(0.75);
+    margin-right: -0.05rem !important;
+  }
+
+  .repository.file.list #file-buttons .ui.button {
+    color: #ffffffe6 !important;
+  }
+
+  .ui.basic.green.button,
+  .ui.basic.green.buttons .button,
+  .ui.basic.primary.button,
+  .ui.basic.primary.buttons .button {
+    background-color: #22272e !important;
+    box-shadow: inset 0 0 0 1px rgba(34, 36, 38, 0.15) !important;
+    color: #dbdbdb !important;
+  }
+
+  .ui.basic.green.button:focus,
+  .ui.basic.green.buttons .button:focus,
+  .ui.basic.primary.button:focus,
+  .ui.basic.primary.buttons .button:focus {
+    box-shadow: inset 0 0 0 0px #808080 !important;
+  }
+
+  .ui.basic.green.button:hover,
+  .ui.basic.green.buttons .button:hover,
+  .ui.basic.primary.button:hover,
+  .ui.basic.primary.buttons .button:hover {
+    background-color: #22272e !important;
+  }
+
+  .ui.basic.green.button:hover,
+  .ui.basic.green.buttons .button:hover,
+  .ui.basic.primary.button:hover,
+  .ui.basic.primary.buttons .button:hover {
+    box-shadow: inset 0 0 0 0px #808080 !important;
+  }
+
+  .issue.list {
+    list-style: none;
+    margin-top: 1rem;
+    background-color: #22272e;
+    border-radius: 6px;
+    padding: 3px 10px 3px 10px;
+  }
+
+  .ui.menu .item {
+    background-color: #22272e;
+  }
+
+  .ui.horizontal.segments > .segment {
+    background-color: #22272e;
+    border-radius: 6px;
+  }
+
+  .ui.attached.header {
+    border-radius: 6px;
+  }
+
+  .repository.file.list .repo-description {
+    color: #adbac7;
+  }
+
+  .commit-summary a.default-link {
+    color: #adbac7 !important;
+  }
+
+  .markup h1,
+  .markup h2,
+  .markup h3,
+  .markup h4,
+  .markup h5,
+  .markup h6 {
+    color: #adbac7;
+  }
+
+  .markup code,
+  .markup tt {
+    color: #adbac7;
+  }
+
+  .markup p,
+  .markup blockquote,
+  .markup details,
+  .markup ul,
+  .markup ol,
+  .markup dl,
+  .markup table,
+  .markup pre {
+    color: #adbac7;
+  }
+
+  .repo-list-link {
+    color: var(--color-blue) !important;
+  }
+
+  .ui.menu.two.item .item {
+    border: 1px solid var(--color-secondary);
+  }
+
+  a,
+  .push.news {
+    color: null;
+  }
+
+  .ui.header {
+    color: #a6aab5;
+  }
+
+  .repo-description {
+    color: #a6aab5 !important;
+  }
+
+  a.ui.label {
+    /* color: #adbac7 !important; */
+    border-color: var(--color-secondary) !important;
+  }
+
+  .ui.label {
+    border-color: var(--color-secondary) !important;
+  }
+
+  .ui.menu .item {
+    color: #adbac7;
+  }
+
+  .ui .sha.label {
+    padding: 6px 10px 6px;
+  }
+
+  /* repo list dashboard */
+  .feeds .list ul li.private {
+    background-color: #22272e;
+  }
+
+  /* ssh and search repository fields */
+  input,
+  textarea,
+  .ui.input > input,
+  .ui.form input:not([type]),
+  .ui.form select,
+  .ui.form textarea,
+  .ui.form input[type="date"],
+  .ui.form input[type="datetime-local"],
+  .ui.form input[type="email"],
+  .ui.form input[type="file"],
+  .ui.form input[type="number"],
+  .ui.form input[type="password"],
+  .ui.form input[type="search"],
+  .ui.form input[type="tel"],
+  .ui.form input[type="text"],
+  .ui.form input[type="time"],
+  .ui.form input[type="url"],
+  .ui.selection.dropdown,
+  .ui.checkbox label:before,
+  .ui.checkbox input:checked ~ label:before,
+  .ui.checkbox input:not([type="radio"]):indeterminate ~ label:before {
+    border-color: var(--color-input-background);
+  }
+
+  /* hover repository rows */
+  .repository.file.list #repo-files-table tr:hover {
+    background-color: var(--color-hover);
+  }
+
+  /* due date boxes */
+  .repository .metas #deadlineForm input {
+    border-color: var(--color-secondary);
+  }
+
+  /* border color dependencies block in issues */
+  #new-dependency-drop-list.ui.selection.dropdown {
+    border-color: var(--color-secondary);
+  }
+
+  .page-content .ui.button {
+    border-color: var(--color-secondary);
+  }
+
+  /* border color form fields settings page */
+  input,
+  textarea,
+  .ui.input > input,
+  .ui.form input:not([type]),
+  .ui.form select,
+  .ui.form textarea,
+  .ui.form input[type="date"],
+  .ui.form input[type="datetime-local"],
+  .ui.form input[type="email"],
+  .ui.form input[type="file"],
+  .ui.form input[type="number"],
+  .ui.form input[type="password"],
+  .ui.form input[type="search"],
+  .ui.form input[type="tel"],
+  .ui.form input[type="text"],
+  .ui.form input[type="time"],
+  .ui.form input[type="url"],
+  .ui.selection.dropdown,
+  .ui.checkbox label:before,
+  .ui.checkbox input:checked ~ label:before,
+  .ui.checkbox input:not([type="radio"]):indeterminate ~ label:before {
+    border-color: var(--color-secondary);
+  }
+
+  /* background color of code display */
+  .lines-code {
+    background-color: #22272e;
+  }
+
+  .code-diff-unified .add-code,
+  .code-diff-unified .add-code td,
+  .code-diff-split .add-code .lines-num-new,
+  .code-diff-split .add-code .lines-type-marker-new,
+  .code-diff-split .add-code .lines-code-new,
+  .code-diff-split .del-code .add-code.lines-num-new,
+  .code-diff-split .del-code .add-code.lines-type-marker-new,
+  .code-diff-split .del-code .add-code.lines-code-new {
+    background: #224035;
+  }
+
+  .tag-code,
+  .tag-code td {
+    background-color: var(--color-body);
+  }
+
+  /* green code color dark theme */
+  .chroma .s2 {
+    color: #8ddb8c;
+  }
+
+  .chroma .k {
+    color: #f47067;
+  }
+
+  .chroma .m {
+    color: #6cb6ff;
+  }
+
+  .chroma .nf {
+    color: #96d0ff;
+  }
+
+  .chroma .nb {
+    color: var(--color-blue);
+  }
+
+  .chroma .nx {
+    color: var(--color-text);
+  }
+
+  .chroma .nv {
+    color: #08dddd;
+  }
+
+  .chroma .si {
+    color: #8ddb8c;
+  }
+
+  .chroma .nt {
+    color: #50eb75;
+  }
+
+  .chroma .nd {
+    color: #c4cfcf;
+  }
+
+  .chroma .o {
+    color: #eb3243;
+  }
+
+  .chroma .nc {
+    color: #16e9e9;
+  }
+
+  .chroma .nn {
+    color: #16e9e9;
+  }
+
+  .chroma .s {
+    color: #8ddb8c;
+  }
+
+  /* border color repo files */
+  .repository.file.list #repo-files-table td {
+    border-bottom: 1px solid #373e47;
+  }
+
+  /* text color repo files */
+  .repository.file.list #repo-files-table td {
+    color: #7f8699;
+  }
+
+  .repository.file.list #repo-files-table td a {
+    /* color: #7f8699 !important; */
+    color: var(--color-blue) !important;
+  }
+
+  /* gpg commit label  */
+  .repository #commits-table td.sha .sha.label.isSigned.isVerified,
+  .repository #repo-files-table .sha.label.isSigned.isVerified,
+  .repository #rev-list .sha.label.isSigned.isVerified,
+  .repository
+    .timeline-item.commits-list
+    .singular-commit
+    .sha.label.isSigned.isVerified {
+    border: 1px solid #21ba45 !important;
+    background: transparent;
+    border-radius: 6px;
+  }
+
+  /* color of active tabular item, e.g. in PR view (conversations, commits, files changed) */
+  .ui.tabular.menu .active.item,
+  .ui.tabular.menu .active.item:hover {
+    background: var(--color-navbar);
+  }
+
+  /* repo watch and fork counters */
+  .ui.basic.labels:not(.tag):not(.image):not(.ribbon) .label,
+  .ui.basic.label:not(.tag):not(.image):not(.ribbon) {
+    color: #adbac7;
+  }
+
+  .repo-buttons .ui.labeled.button.disabled > .label {
+    color: #adbac7;
+  }
+
+  /* border color of warning message */
+  .ui.warning.message {
+    background-color: #22272e;
+    color: var(--color-text);
+  }
+
+  .ui.warning.message,
+  .ui.attached.warning.message {
+    box-shadow: null;
+  }
+
+  .ui.warning.message,
+  .ui.attached.warning.message {
+    box-shadow: 0 0 0 0px #c9ba9b inset, 0 0 #0000;
+  }
+
+  /* repo svg icons */
+  .repository.view.issue .comment-list .timeline-item .badge .svg {
+    fill: var(--color-text-light) !important;
+  }
+
+  /* background emoji reactions */
+  .repository .segment.reactions .ui.label.basic.blue {
+    background-color: transparent;
+  }
+
+  .ui.positive.message {
+    background-color: #22272e;
+    color: #ffffffe6;
+  }
+
+  .ui.positive.message,
+  .ui.attached.positive.message {
+    box-shadow: 0 0 0 1px #347d39 inset, 0 0 #0000;
+  }
+
+  /* diff color deletion */
+  .code-diff-unified .del-code,
+  .code-diff-unified .del-code td,
+  .code-diff-split .del-code .lines-num-old,
+  .code-diff-split .del-code .lines-type-marker-old,
+  .code-diff-split .del-code .lines-code-old {
+    background: #7a341e;
+  }
+
+  /* diff color neutral */
+  .lines-num,
+  .lines-code {
+    background-color: var(--color-navbar);
+  }
+
+  .lines-type-marker {
+    background-color: var(--color-navbar);
+  }
+
+  a.blob-excerpt {
+    background: var(--color-body);
+  }
+
+  /* PR open label */
+  .ui.green.labels .label,
+  .ui.ui.ui.green.label {
+    background-color: #347d39;
+  }
+
+  /* bg color of PR comment form */
+  .ui.form,
+  .ui.form .field .dropdown,
+  .ui.form .field .dropdown .menu > .item {
+    background-color: var(--color-navbar);
+  }
+
+  .comment-code-cloud {
+    background-color: var(--color-navbar);
+  }
+
+  /* remove border of "new file" button */
+  .ui.buttons .button:first-child {
+    border-left: 1px solid var(--color-markup-code-block);
+  }
+
+  /* border color of dropdown svg */
+  .ui.form,
+  .ui.form .field .dropdown,
+  .ui.form .field .dropdown .menu > .item {
+    background-color: var(--color-border);
+  }
+
+  /* hover font color */
+  .ui.secondary.pointing.menu .active.item,
+  .ui.secondary.pointing.menu .active.item:hover,
+  .ui.secondary.pointing.menu .dropdown.item:hover,
+  .ui.secondary.pointing.menu .link.item:hover,
+  .ui.secondary.pointing.menu a.item:hover {
+    color: var(--color-text);
+  }
+
+  /* user avatar background */
+  .user.profile .ui.card #profile-avatar {
+    background: var(--color-navbar);
+  }
+
+  .ui.cards > .card > .content,
+  .ui.card > .content {
+    background: var(--color-navbar);
+  }
+
+  .user.profile .ui.card .extra.content ul li:not(:last-child) {
+    border-bottom: 1px solid var(--color-secondary);
+    background-color: var(--color-navbar);
+  }
+
+  .user.profile .ui.card .extra.content ul li {
+    background-color: var(--color-navbar);
+  }
+
+  /* right border of profile search bar */
+  .ui.action.input:not([class*="left action"]) > input {
+    border-right-color: var(--color-secondary);
+  }
+
+  .ui.action.input:not([class*="left action"]) > input:focus {
+    border-right-color: var(--color-secondary);
+  }
+
+  /* font color line numbers */
+  .lines-num span:after {
+    color: var(--color-text);
+  }
+
+  /* gpg key signed message */
+  .repository .ui.attached.isSigned.isVerified.message {
+    background-color: var(--color-primary);
+    color: black;
+  }
+
+  .repository .ui.attached.isSigned.isVerified.message .ui.text {
+    color: var(--color-active);
+  }
+
+  .ui .info.segment.top {
+    background-color: var(--color-navbar) !important;
+  }
+
+  .repository .ui.attached.isSigned.isVerified.top,
+  .repository .ui.attached.isSigned.isVerified.message {
+    border-top: 0px solid var(--color-text);
+  }
+
+  .repository .ui.attached.isSigned.isVerified {
+    border-left: 0px solid var(--color-text);
+    border-right: 0px solid var(--color-text);
+  }
+
+  .repository .ui.attached.isSigned.isVerified:last-child,
+  .repository .ui.attached.isSigned.isVerified.bottom {
+    border-bottom: 0px solid #a3c293;
+  }
+
+  /* info message banner colors */
+  .ui.info.message {
+    background-color: var(--color-navbar);
+    color: var(--color-text);
+  }
+
+  /* PR timelines colors */
+  .repository.view.issue .comment-list .timeline-item .badge .svg {
+    fill: black;
+  }
+
+  .repository.view.issue .comment-list .timeline-item .badge {
+    background-color: var(--color-navbar);
+    color: var(--color-text);
+    width: 30px;
+    height: 30px;
+    margin-left: -31px;
+  }
+
+  .repository.view.issue .comment-list .timeline-item .badge.badge-commit {
+    border-color: var(--color-navbar);
+    background: var(--color-navbar);
+  }
+
+  .repository.view.issue .comment-list .timeline:before {
+    background-color: var(--color-secondary);
+  }
+
+  .repository.view.issue .comment-list .timeline-item .badge .svg {
+    width: 20px;
+    height: 20px;
+    padding: 3px;
+  }
+
+  input {
+    caret-color: var(--color-text);
+  }
+
+  .removed-code {
+    background: #b70f22;
+    color: var(--color-text);
+  }
+
+  .added-code {
+    background: #0d8b2c;
+    color: var(--color-text);
+  }
+
+  /* review - pending label */
+  .ui.basic.labels .yellow.label,
+  .ui.ui.ui.basic.yellow.label {
+    background: var(--color-project-board-bg);
+    color: #333 !important;
+  }
+
+  /* green checkmark background when approving PRs */
+  .bg-green {
+    background: var(--color-primary) !important;
+  }
+
+  i.green.icon.icon.icon.icon {
+    color: var(--color-primary);
+  }
+
+  span.green .svg {
+    color: var(--color-primary);
+  }
+
+  /* highlight color bg for highlighted lines */
+  .lines-code.active,
+  .lines-code .active {
+    border-radius: 6px;
+    background: #000000 !important;
+  }
+
+  .ui.ui.ui.ui.table tr.active,
+  .ui.ui.table td.active {
+    box-shadow: 0 0 #000000de inset;
+    background: #e0e0e0;
+    color: --var(--color-text);
+  }
+
+  /* navbar font size */
+  .ui.secondary.menu .item {
+    font-size: 13px;
+  }
+
+  #navbar .item {
+    margin: 0;
+    padding: 0.5em;
+    font-size: 14px;
+  }
+
+  .following.bar #navbar {
+    width: 100vw;
+    /* default 52px */
+    min-height: 40px;
+    padding: 0 0.5rem;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 0 6px var(--color-navbar);
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    box-shadow: inset 0 0 0 6px var(--color-text);
+  }
+
+  .following.bar #navbar .brand {
+    margin-top: -2px;
+  }
+
+  /* border colors of search fields, e.g. "find repository" on main page */
+  input:hover,
+  textarea:hover,
+  .ui.input input:hover,
+  .ui.form input:not([type]):hover,
+  .ui.form select:hover,
+  .ui.form textarea:hover,
+  .ui.form input[type="date"]:hover,
+  .ui.form input[type="datetime-local"]:hover,
+  .ui.form input[type="email"]:hover,
+  .ui.form input[type="file"]:hover,
+  .ui.form input[type="number"]:hover,
+  .ui.form input[type="password"]:hover,
+  .ui.form input[type="search"]:hover,
+  .ui.form input[type="tel"]:hover,
+  .ui.form input[type="text"]:hover,
+  .ui.form input[type="time"]:hover,
+  .ui.form input[type="url"]:hover,
+  .ui.selection.dropdown:hover,
+  .ui.checkbox label:hover:before,
+  .ui.checkbox label:active:before,
+  .ui.radio.checkbox label:after,
+  .ui.radio.checkbox input:focus ~ label:before,
+  .ui.radio.checkbox input:checked ~ label:before {
+    border-color: var(--color-secondary);
+  }
+
+  a:hover,
+  a.muted:hover,
+  .ui.breadcrumb a:hover {
+    color: var(--color-blue);
+  }
+
+  input:focus,
+  textarea:focus,
+  .ui.input input:focus,
+  .ui.form input:not([type]):focus,
+  .ui.form select:focus,
+  .ui.form textarea:focus,
+  .ui.form input[type="date"]:focus,
+  .ui.form input[type="datetime-local"]:focus,
+  .ui.form input[type="email"]:focus,
+  .ui.form input[type="file"]:focus,
+  .ui.form input[type="number"]:focus,
+  .ui.form input[type="password"]:focus,
+  .ui.form input[type="search"]:focus,
+  .ui.form input[type="tel"]:focus,
+  .ui.form input[type="text"]:focus,
+  .ui.form input[type="time"]:focus,
+  .ui.form input[type="url"]:focus,
+  .ui.selection.dropdown:focus,
+  .ui.checkbox input:focus ~ label:before,
+  .ui.checkbox input:not([type="radio"]):indeterminate:focus ~ label:before,
+  .ui.checkbox input:checked:focus ~ label:before,
+  .ui.radio.checkbox input:focus:checked ~ label:before {
+    border-color: var(--color-secondary);
+  }
+
+  .repo-icon {
+    display: none;
+  }
+
+  /* reduce navbar bottom margin */
+  .ui.ui.ui.container:not(.fluid) {
+    margin-bottom: -3px;
+  }
+
+  .ui.green.button {
+    padding: 5px 16px;
+    line-height: 20px;
+  }
+
+  .ui.green.labels .label,
+  .ui.ui.ui.green.label {
+    padding: 5px 16px;
+    line-height: 20px;
+  }
+
+  .ui.tabular.menu .active.item {
+    margin-bottom: 2px;
+  }
+
+  /* repository icon for directories */
+  .repository.file.list
+    #repo-files-table
+    tbody
+    .svg.octicon-file-directory-fill,
+  .repository.file.list #repo-files-table tbody .svg.octicon-file-submodule {
+    color: #768390;
+  }
+
+  .ui.menu .item > .label:not(.floating) {
+    padding: 0 6px;
+    line-height: 18px;
+  }
+
+  .ui.secondary.pointing.menu .item > .circular.label {
+    line-height: 10px;
+  }
+
+  .ui.grey.labels .label,
+  .ui.ui.ui.grey.label {
+    line-height: 10px;
+  }
+  .ui.primary.label,
+  .ui.primary.labels .label {
+    background-color: #768390 !important;
+  }
+}
