@@ -1183,4 +1183,9 @@
   .ui.primary.labels .label {
     background-color: #768390 !important;
   }
+
+  // timeline view icon color
+  .repository.view.issue .comment-list .timeline-item .badge .svg {
+    fill: #fff !important;
+  }
 }
