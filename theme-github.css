@@ -366,3 +366,9 @@ a.muted {
 .ui.ui.ui.grey.label {
   line-height: 10px;
 }
+
+/* yes/no dialog buttons for repo archival */
+.ui.basic.inverted.buttons .button,
+.ui.basic.inverted.button {
+  color: #f9fafb !important;
+}
