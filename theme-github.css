@@ -372,3 +372,19 @@ a.muted {
 .ui.basic.inverted.button {
   color: #f9fafb !important;
 }
+
+// border color of SSH/https cloning buttons (non-focused)
+.ui.basic.blue.button,
+.ui.basic.blue.buttons .button,
+.ui.basic.primary.button,
+.ui.basic.primary.buttons .button {
+  box-shadow: inset 0 0 0 1px transparent !important;
+}
+
+// same for hover
+ui.basic.blue.button:hover,
+.ui.basic.blue.buttons .button:hover,
+.ui.basic.primary.button:hover,
+.ui.basic.primary.buttons .button:hover {
+  box-shadow: inset 0 0 0 0px transparent !important;
+}
