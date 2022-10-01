@@ -1,3 +1,5 @@
+# MOVED TO https://codeberg.org/pat-s/gitea-github-theme
+
 # gitea-github-theme
 
 **Opinionated** GitHub-based light and dark themes for Gitea including an automatic theme switch option.
